@@ -41,7 +41,7 @@ A dynamic and interactive task management application built with Next.js and Rea
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/task-board-app.git
+git clone https://github.com/Lohit244/peakflow.git
 
 # Navigate to the project directory
 cd peakflow
