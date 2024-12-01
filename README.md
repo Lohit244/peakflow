@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📋 Peakflow Assignment
 
-## Getting Started
+A dynamic and interactive task management application built with Next.js and React, designed to streamline your workflow with intuitive drag-and-drop functionality and real-time updates.
 
-First, run the development server:
+## ✨ Features
+
+### 🚀 Task Management
+- **Kanban-style Board**: Organize tasks into three powerful columns: "Not Started", "In Progress", and "Completed"
+- **Drag and Drop**: Seamlessly move tasks between columns with an intuitive interface
+- **Add New Tasks**: Quickly add tasks to any column with a simple click of the "+" button
+- **Edit Tasks**: Dive into task details with a single click, allowing comprehensive editing
+
+### 💾 Data Management
+- **Persistent Storage**: Automatic local storage saves ensure your tasks are always preserved
+- **Real-time Updates**: Instant reflection of changes across the entire board
+- **Task Details**: Dedicated page for each task, enabling in-depth editing and tracking
+
+### 🌐 User Experience
+- **Responsive Design**: Fully adaptive layout works flawlessly on desktop and mobile devices
+- **Accessibility**: Thoughtfully designed with ARIA attributes and full keyboard navigation
+- **Quick Edit**: Rapid editing options directly from task cards
+
+## 🛠 Technical Architecture
+
+### Core Technologies
+- **Framework**: Next.js 14+ (App Router)
+- **Rendering**: React Server Components
+- **Styling**: Tailwind CSS
+- **Component Library**: shadcn/ui
+- **Language**: TypeScript
+- **Drag and Drop**: `@dnd-kit` library
+
+### Key Technical Highlights
+- Optimized performance with React Server Components
+- Type-safe development using TypeScript
+- Responsive and adaptive UI design
+- Persistent local storage implementation
+- Advanced drag-and-drop interactions
+
+## 🚀 Quick Start Guide
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/task-board-app.git
+
+# Navigate to the project directory
+cd peakflow
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Open the application
+# Visit http://localhost:3000 in your browser
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Passionate about improving the Task Board? We welcome contributions!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### How to Contribute
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
+Distributed under the MIT License. See `LICENSE` for more information.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
